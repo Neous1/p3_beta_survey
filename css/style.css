@@ -1,0 +1,43 @@
+body {
+	width: 90%;
+	margin: 10 auto;
+    padding: 50px;
+
+}
+.title{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.container1{
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+
+.flex-container{
+    width: 100%;    
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.column1{
+    order: 0;
+    flex:4;
+}
+.column2{
+    order: 1 ;
+    flex:8 0 300px;
+}
